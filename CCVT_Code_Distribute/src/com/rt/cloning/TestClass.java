@@ -12,7 +12,7 @@ public class TestClass {
 	Employee e1=new Employee(1, "Ram",d1);
 	Employee e2= e1.clone();
 	
-
+//Rachit Agrawal
 	System.out.println(e1);
 	System.out.println(e2);
 //	e2.setEid(3);
@@ -26,6 +26,7 @@ public class TestClass {
 	System.out.println(e1.clone()!=e1);
 	System.out.println(e2.getClass()==e1.getClass());
 	System.out.println(e1.equals(e2));
+	System.out.println("Rachit");
 	}
 
 }
